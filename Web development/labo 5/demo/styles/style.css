@@ -1,0 +1,30 @@
+h1,h2{
+    color: blue;
+    font-size: 5em;
+}
+.StyleBlue
+{color: blue}
+
+
+
+.StyleRed
+{color: red;
+font-size:5em;}
+
+
+#menu{
+
+    color: blue;
+}
+section h1
+{color: aqua;}
+
+
+section>h1{
+
+    color: green;
+}
+
+
+
+
