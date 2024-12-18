@@ -1,0 +1,68 @@
+
+
+
+body {
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+    margin: 0 3%;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: .9em 0 0 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    background: black;
+    border-radius: 5px;
+    color: red;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+
+}
+
+figcaption {
+    font-size: .8em;
+}
+
+
+/* Stijlen voor alle apparaten (standaardstijl) */
+body {
+    font-size: 16px; /* Basisstijl */
+    background-color: lightgreen;
+}
+
+/* Stijlen voor gsm's (max. 768px breed) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        background-color: lightblue;
+    }
+}
+
+/* Stijlen voor tablets (768px tot 1024px breed) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        background-color: maroon;
+    }
+}
+
+/* Stijlen voor pc's (min. 1025px breed) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+        background-color: lightgray;
+    }
+}
+
+
+
