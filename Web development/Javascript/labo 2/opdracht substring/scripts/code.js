@@ -6,3 +6,4 @@ const setup = () => {
     document.getElementById("output").innerText =
         start >= 0 && end > start && end <= text.length ? text.substring(start, end) : "(geen output)";
 };
+window.addEventListener("load", setup);
