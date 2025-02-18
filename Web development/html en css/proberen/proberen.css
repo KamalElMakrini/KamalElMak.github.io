@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: yellow;
+
+}
+
+.display{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    justify-content: center;
+
+
+}
